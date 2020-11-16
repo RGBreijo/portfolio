@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0; 
+    padding: 0;
+    background-color: #F5F7FA;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to left, #1447A1,  #016EB9);
+}
+.container{
+    padding: 1em;
+}
+
+.banner{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background: linear-gradient(to left, #1447A1,  #016EB9);
+    color:white;
+}
+.banner img{
+    border-radius: 50%;
+}
+
+.banner h2, h1{
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner h2{
+    margin-top: 1em;;
+    margin-bottom: 0.5em;
+}
+
+.banner h1{
+    margin-bottom: 1em;;
+}
+
+#resumeBtn{
+   width: 130px;
+   margin-bottom: 2em;
+   text-transform: uppercase;
+   background-color: #007be7;
+
+
+}
+
+.project{
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0079C5;
+}
+
+.projectCard{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.projectCard p{
+    opacity: 0.7;
+}
+
+.projectCard img{
+    width: 100%;
+}
+
+.projectCardContent{
+    padding: 1em;
+}
+
+.projectCardTitle{
+    text-align: center;
+    color: #103082;
+}
+
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewProjectBtn, .viewResume{
+    background-color: #0070BA;
+    border: none; 
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+
+.cardIconContainer img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.cardIconContainer{
+    width: 80px;
+}
