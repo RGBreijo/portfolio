@@ -110,3 +110,28 @@ nav{
 .cardIconContainer{
     width: 80px;
 }
+
+.emailFormSection{
+    background-color: white;
+    padding: 1em;
+}
+
+.emailFormSection h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.emailInputContainer{
+    padding-bottom: 1em;
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailInputContainer input{
+    border: 1px solid black;
+}
+
+.emailMsgContainer textarea{
+    margin-top: 0.5em;
+}
