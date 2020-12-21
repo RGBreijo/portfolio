@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
+/* make the button change color when hover and maybe grow bigger?*/
 body{
     font-family: 'Lato', sans-serif;
     margin: 0; 
@@ -86,6 +87,12 @@ nav{
     width: 100%;
 }
 
+
+.projectVid{
+    display: block;
+    width: 100%;
+    background-color: blue;
+}
 .projectCardContent{
     padding: 1em;
 }
@@ -107,6 +114,11 @@ nav{
     color: white;
     padding: 1em;
     border-radius: 5px;
+}
+
+.viewProjectBtn:hover{
+    background-color: #33aeff;
+
 }
 
 
