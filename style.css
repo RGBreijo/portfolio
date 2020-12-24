@@ -119,12 +119,11 @@ nav{
     color: white;
     padding: 1em;
     border-radius: 5px;
+    font-size: 0.9em;
 }
 
 .viewProjectBtn:hover, .btnContainer button:hover{
     background-color: #33aeff;
-
-
 }
 
 
