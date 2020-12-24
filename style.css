@@ -52,8 +52,6 @@ nav{
    margin-bottom: 2em;
    text-transform: uppercase;
    background-color: #007be7;
-
-
 }
 
 .projectSection{
@@ -115,14 +113,14 @@ nav{
 }
 
 
-.viewProjectBtn{
+.viewProjectLink{
     font-size: 1em;
 }
-.viewProjectBtn, .viewResume{
+.viewProjectLink, .viewResume{
     background-color: #0070BA;
     border: none; 
     color: white;
-    padding: 0.5em;
+    padding: 0.9em;
     border-radius: 5px;
     font-size: 0.9em;
 }
@@ -131,7 +129,7 @@ nav{
     padding: 1em;
 }
 
-.viewProjectBtn:hover, .btnContainer button:hover{
+.viewProjectLink:hover, .btnContainer button:hover{
     background-color: #33aeff;
 }
 
