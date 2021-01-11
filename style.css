@@ -5,14 +5,43 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0; 
     padding: 0;
-    background-color: #F5F7FA;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
 }
 
 nav{
     width: 100%;
-    height: 50px;
-    background: linear-gradient(to left, #1447A1,  #016EB9);
+    background-image: linear-gradient(to top,  rgb(91, 135, 230), #5B86E5);
 }
+
+nav li:first-child{
+    padding-top: 1em;
+}
+ul{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: rgb(231, 229, 229);
+}
+
+ul li{
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+
+header{
+    background-color: green;
+    text-align: center;
+}
+
 .container{
     padding: 1em;
     display: flex;
@@ -26,11 +55,12 @@ nav{
     flex-direction: column;
     align-items: center;
     background-color: white;
-    background: linear-gradient(to left, #1447A1,  #016EB9);
+    background-image: linear-gradient(to top, #36D1DC, rgb(91, 135, 230));
     color:white;
 }
 .banner img{
     border-radius: 50%;
+    border: 1px solid white;
 }
 
 .banner h2, h1{
@@ -41,16 +71,21 @@ nav{
 .banner h2{
     margin-top: 1em;;
     margin-bottom: 0.5em;
+    font-size: 1.6em;
 }
 
 .banner h1{
-    margin-bottom: 1em;;
+    margin-bottom: 1em;
+    font-size: 1em;
 }
 
 #resumeNavigation{ 
-   margin-bottom: 2em;
+    margin-top: 1em;
+   margin-bottom: 4em;
    text-transform: uppercase;
-   background-color: #007be7;
+   font-weight: bold;
+   background-color: white;
+   color: #44B7E0;
 }
 
 .projectSection{
@@ -66,7 +101,7 @@ nav{
     font-size: 35px;
     font-weight: 900;
     text-transform: uppercase;
-    color: #0079C5;
+    color: #43B6E0;
 } 
 
 .projectCard{
@@ -75,7 +110,7 @@ nav{
     margin-top: 1em;
     margin-bottom: 1em;
     max-width: 300px;
-    height: 550px;
+    height: 510px;
 }
 
 
@@ -102,7 +137,8 @@ nav{
 }
 .projectCardTitle{
     text-align: center;
-    color: #103082;
+    color: #2492da;
+
 }
 
 .cardFooter{
@@ -116,7 +152,8 @@ nav{
     font-size: 1em;
 }
 .viewProjectLink, .viewResume{
-    background-color: #0070BA;
+
+    background-color: #33aeff;
     border: none; 
     color: white;
     padding: 0.9em;
@@ -129,7 +166,7 @@ nav{
 }
 
 .viewProjectLink:hover, .btnContainer button:hover{
-    background-color: #33aeff;
+    background-color: #56b8fa;
 }
 
 
@@ -159,7 +196,7 @@ nav{
     text-align: center;
     margin-bottom: 1.5em;
     font-weight: bold;
-    color: #0079C5;
+    color: #2492DA;
     font-size: 2em;
     margin-top: 1em;
     width: 280px;
@@ -174,7 +211,6 @@ nav{
 }
 
 .centerForm{
-    background: blueviolet;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,7 +220,7 @@ label{
 
     margin-bottom: 0.5em;
     font-size: 14px;
-    color: #3068a1;
+    color: #4387ca;
     font-weight: bold;
 }
 
@@ -199,8 +235,8 @@ label{
 
 .emailInputContainer input{
 
-    /* background: #eaedf3; */
-    border-bottom: 1px solid black;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
     margin-bottom: 1em;
 
     
@@ -223,7 +259,8 @@ label{
 .emailMsgContainer textarea{
     margin-top: 0.5em;
     border: none;
-    border-bottom: 1px solid black;
+    border: 1px solid rgb(214, 214, 214);
+
     display: block;
     height: 100px;
     width: 200px;
@@ -241,7 +278,7 @@ label{
     padding: 1em;
     margin-top: 1em;
     width: 100px;
-    background: #007be7;;
+    background: #33AEFF;
     border: none;
     color: white;
     border-radius: 5px;
@@ -250,7 +287,9 @@ label{
 footer{
     width: 100%;
     height: 100px;
-    background: #104fa6;
+
+    background: #4DD5FE;
+
 }
 
 @media only screen and (min-width: 700px)
@@ -276,12 +315,11 @@ footer{
 
     a{
         text-decoration: none;
-        color: white;
         font-size: 1.2em;
     }
 
     nav a:hover{
-        color:#bcb2b2;
+        color: white;
     }
     
  
