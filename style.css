@@ -17,6 +17,10 @@ nav{
     background-image: linear-gradient(to top,  rgb(91, 135, 230), #5B86E5);
 }
 
+.topNavSection{
+    background-image: linear-gradient(to top,  rgb(91, 135, 230), #5B86E5);
+}
+
 nav li:first-child{
     padding-top: 1em;
 }
@@ -37,8 +41,45 @@ ul li{
 }
 
 
+
+.hamburger div{
+    width: 30px;
+    height: 2px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.hamburger{
+    padding-right: 1em;
+    padding-top: 1em;
+    position: absolute;
+}
+
+/* things need to change in desktop and get rid of hamburger */
+
+.topNavSection{
+    display: flex;
+    justify-content: flex-end;
+}
+nav{
+    display: none;
+}
+
+.hamburger:hover{
+    display: inline;
+}
+/* ///// */
+
+
+
+
+
+
+
+
+
+
 header{
-    background-color: green;
     text-align: center;
 }
 
