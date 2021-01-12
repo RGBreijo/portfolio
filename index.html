@@ -167,31 +167,31 @@
   <section class="emailFormSection">
 
    <h1> GET IN TOUCH</h1>
-   <form action="">
+   <form action="https://mailthis.to/RGB" method="POST">
 
     <div class="emailAlignContainer">
      <div>
       <div class="emailInputContainer">
-       <label for="">YOUR NAME*</label>
-       <input type="text" maxlength="20" class="nameInput" required/>
+       <label for="fullName">YOUR NAME*</label>
+       <input type="text" maxlength="20" class="nameInput"  name="fullName" required/>
       </div>
 
       <div class="emailInputContainer">
-       <label for="">YOUR EMAIL*</label>
-       <input type="email" maxlength="25" class="emailInput" required/>
+       <label for="email">YOUR EMAIL*</label>
+       <input type="email" maxlength="25" class="emailInput" name="email" required/>
       </div>
      </div>
 
 
      <div>
       <div class="emailInputContainer">
-       <label for="">SUBJECT*</label>
-       <input type="text" maxlength="25" class="subjectInput" required/>
+       <label for="subject">SUBJECT*</label>
+       <input type="text" maxlength="25" class="subjectInput" name="subject" required/>
       </div>
 
       <div class="emailMsgContainer">
-       <label for="">MESSAGE*</label>
-       <textarea name="" id="" cols="30" rows="10" required></textarea>
+       <label for="message">MESSAGE*</label>
+       <textarea id="" cols="30" rows="10" name="message" maxlength="500" required></textarea>
       </div>
      </div>
     </div>
