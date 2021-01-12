@@ -87,6 +87,17 @@ header{
     align-items: center;
 }
 
+.moreProjects{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1em;
+    max-width: 900px;
+    width: 100%;
+}
+
+.moreProjects a{
+    color: #33AEFF;
+}
 .banner{
     padding-top: 2em;
     display: flex;
