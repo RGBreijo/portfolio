@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
-/* make the button change color when hover and maybe grow bigger?*/
 body{
     font-family: 'Lato', sans-serif;
     margin: 0; 
@@ -56,19 +55,17 @@ ul li{
     position: absolute;
 }
 
-/* things need to change in desktop and get rid of hamburger */
+
+
 
 .topNavSection{
     display: flex;
     justify-content: flex-end;
 }
 nav{
-    /* display: none; */
     height: 0px;
 }
 
-
-/* ///// */
 
 
 
@@ -290,7 +287,6 @@ label{
 .nameInput, .emailInput, .subjectInput{
     border: none;
     padding: 0.5em
-    /* border: 1px solid lightgray; */
 }
 
 .emailInput, .subjectInput{
@@ -335,13 +331,19 @@ footer{
 
 @media only screen and (min-width: 700px)
 {
-
+    .hamburger{
+        display: none;
+    }
     nav{
         padding: 0;
         padding-top: 2em;
         display: flex;
         justify-content: flex-end;
-
+        
+        /* when clicking the hamburger icon and then changing the screen size 
+        the 60px was not getting applied, instead it countinued to have the 
+        height that was set in js. this fixes it, also ads a nice animation... */
+        height: 60px !important; 
     }
 
 
@@ -402,10 +404,6 @@ footer{
    .projectCard{
        margin-right: 1em;
    }
-
-
-
-
 }
 
     
