@@ -96,8 +96,13 @@ header{
 }
 
 .moreProjects a{
+    color: rgb(11, 117, 187);
+}
+
+.moreProjects a:hover{
     color: #33AEFF;
 }
+
 .banner{
     padding-top: 2em;
     display: flex;
@@ -162,7 +167,10 @@ header{
     height: 510px;
 }
 
-
+#discountImage{
+    padding-top: 0.9em;
+    width: 110px;
+}
 
 .projectCard p{
     opacity: 0.7;
@@ -210,9 +218,7 @@ header{
     font-size: 0.9em;
 }
 
-.viewResume{
-    padding: 1em;
-}
+
 
 .viewProjectLink:hover, .btnContainer button:hover{
     background-color: #56b8fa;
@@ -342,6 +348,22 @@ footer{
 
 @media only screen and (min-width: 700px)
 {
+
+    .banner a{
+        padding: 1em;
+        text-align: center;
+        transition: all 0.2s linear;
+        width: 100px;
+        /* display: inline-block; */
+    }
+    
+    .banner a:hover{
+        width: 110px;
+    }
+
+
+
+
     .hamburger{
         display: none;
     }
