@@ -8,11 +8,14 @@ function navBarClicked()
     let nav = document.getElementsByTagName("nav")[0];
     let style = window.getComputedStyle(nav);
 
-    if(style.getPropertyValue("display") == "none")
+    if(nav.style.height == "0px")
     {
-        nav.style.display = "block";
-        // now the transition
+          nav.style.display = "block";
+          nav.style.height = "150px";
+          nav.style.transition = "all 0.5s";
     }else{
-        nav.style.display = "none";
+        nav.style.height = "0px";
     }
 }
+
+// overflow hidden
