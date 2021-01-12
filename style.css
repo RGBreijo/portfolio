@@ -15,6 +15,7 @@ a{
 nav{
     width: 100%;
     background-image: linear-gradient(to top,  rgb(91, 135, 230), #5B86E5);
+    overflow: hidden;
 }
 
 .topNavSection{
@@ -62,12 +63,11 @@ ul li{
     justify-content: flex-end;
 }
 nav{
-    display: none;
+    /* display: none; */
+    height: 0px;
 }
 
-.hamburger:hover{
-    display: inline;
-}
+
 /* ///// */
 
 
