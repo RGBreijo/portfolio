@@ -396,7 +396,7 @@ footer div{
     justify-content: center;
     align-items: center;
     animation: move 1s linear infinite;
-    position: relative;
+    /* position: relative; */
 }
 
 .goBack:hover{
