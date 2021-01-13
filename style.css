@@ -89,10 +89,9 @@ header{
 
 .moreProjects{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding-top: 1em;
-    max-width: 900px;
-    width: 100%;
+    max-width: 300px;
     text-decoration: underline;
 }
 
@@ -148,6 +147,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1000px;
 }
 .project{
     margin-top: 1em;
@@ -415,6 +415,9 @@ footer div{
 
 @media only screen and (min-width: 700px)
 {
+    .moreProjects{
+        width: 100%;
+    }
     .projectCardContent p{
         line-height: 1.6em;
     
@@ -510,3 +513,12 @@ footer div{
 }
 
     
+
+@media only screen and (min-width: 1150px)
+{
+    .moreProjects{
+        max-width: 900px;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
