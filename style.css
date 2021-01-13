@@ -140,6 +140,7 @@ header{
    text-transform: uppercase;
    font-weight: bold;
    background-color: white;
+   border: 1px solid white;
    color: #44B7E0;
 }
 
@@ -225,7 +226,6 @@ header{
 
 
 .viewProjectLink, .viewResume{
-
     background-color: #33aeff;
     border: none; 
     color: white;
@@ -233,6 +233,15 @@ header{
     border-radius: 5px;
     font-size: 0.9em;
 }
+
+#resumeNavigation:hover{
+    background-color: #44B7E0;
+    color: white;
+    background-image: linear-gradient(to top,  #3CC5DD , #40BEDF);
+}
+
+
+
 
 
 
@@ -414,13 +423,13 @@ footer div{
     .banner a{
         padding: 1em;
         text-align: center;
-        transition: all 0.2s linear;
+        /* transition: all 0.2s linear; */
         width: 100px;
     }
     
-    .banner a:hover{
+    /* .banner a:hover{
         width: 110px;
-    }
+    } */
 
 
 
