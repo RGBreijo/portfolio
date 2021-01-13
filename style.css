@@ -362,6 +362,48 @@ footer{
 
 }
 
+footer div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    /* position: absolute; */
+}
+.goBack{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    margin-right: 1em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move 1s linear infinite;
+    position: relative;
+}
+
+.goBack:hover{
+    background-color: white;
+}
+
+.goBack a{
+    color: white;
+    font-size: 2em;
+    padding-bottom: 0;
+    height: 30px;
+}
+
+.goBack:hover > a{
+    color: #4DD5FE;
+}
+
+@keyframes move {
+
+    0%{top:0px;}
+    50%{top: 10px;}
+    100%{top: 0px;}
+  }
+
 @media only screen and (min-width: 700px)
 {
     .projectCardContent p{
