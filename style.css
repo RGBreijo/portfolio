@@ -149,6 +149,7 @@ header{
    background-color: white;
    border: 1px solid white;
    color: #44B7E0;
+ white-space: nowrap;
 }
 
 .projectSection{
@@ -434,14 +435,8 @@ footer div{
     .banner a{
         padding: 1em;
         text-align: center;
-        /* transition: all 0.2s linear; */
-        width: 100px;
     }
     
-    /* .banner a:hover{
-        width: 110px;
-    } */
-
 
 
 
